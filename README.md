@@ -25,3 +25,9 @@ Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
 
 * Internal I/O
     * Mini PCIE (X2) | 2.4 Ghz and 5 Ghz radios (3x3)
+
+
+
+
+
+Written by mixadj
