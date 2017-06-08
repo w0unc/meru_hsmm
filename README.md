@@ -9,15 +9,19 @@ Notes:
 
 
 
-Hardware Specs
+Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
 ------
 * CPU
-  * Power PC based
+  * MCP8378E VRANGA
+      * PowerPC based
+      * 800/400 MHZ
+      * QQTA1248
 
 * External I/O
     * Gigabit Ethernet
     * Gigabit Ethernet w/POE In
     * 3.5mm Serial
     * 12V Power
+
 * Internal I/O
     * Mini PCIE (X2) | 2.4 Ghz and 5 Ghz radios (3x3)
