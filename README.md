@@ -6,8 +6,13 @@ Notes:
 * Units run a custom version of RHEL and appear to use uBoot for the bootloader.
 
 
+Wiring of Serial Cable
+----
 
-
+|____________________
+| GND    | TX  | RX  \
+|________|_____|_____/
+|
 
 Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
 ------
