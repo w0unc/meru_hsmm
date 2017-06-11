@@ -38,7 +38,6 @@ Software
 * Linux Kernel 2.6.25
   * PowerPC
 
+Notes:
 
-
-
-Written by mixadj
+limited command set in stock firmware
