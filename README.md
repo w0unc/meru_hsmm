@@ -13,6 +13,15 @@ Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
       * PowerPC based
       * 800/400 MHZ
       * QQTA1248
+* Memory
+  * DRAM 256 MB
+
+* Flash
+  * 32 MB
+
+* PCIE
+  * Broadcom BCM 4331 (2.4 Ghz)
+  * Broadcom BCM 4331 (5 Ghz)
 
 * External I/O
     * Gigabit Ethernet
@@ -23,6 +32,11 @@ Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
 * Internal I/O
     * Mini PCIE (X2) | 2.4 Ghz and 5 Ghz radios (3x3)
 
+
+Software
+-------
+* Linux Kernel 2.6.25
+  * PowerPC
 
 
 
