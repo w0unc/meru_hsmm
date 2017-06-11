@@ -6,7 +6,7 @@ Notes:
 * Units run a custom version of RHEL and appear to use uBoot for the bootloader.
 
 [W0UNC Slack Link](https://join.slack.com/w0unc/shared_invite/MTk2ODQxMzE3NTQzLTE0OTcyMTM3NDAtZjYzMzlkOWIzNQ) (Dies in 7 days)
-
+-----------------
 
 Hardware Specs: Models AP332i/AP332e (internal antenna/external antenna)
 ------
