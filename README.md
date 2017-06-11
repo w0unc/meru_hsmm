@@ -39,5 +39,8 @@ Software
   * PowerPC
 
 Notes:
+Hash of root password;
+
+$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::
 
 limited command set in stock firmware
