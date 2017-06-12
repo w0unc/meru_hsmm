@@ -42,9 +42,17 @@ Software
 * Linux Kernel 2.6.25
   * PowerPC
 
-Notes:
-Hash of root password;
+Notes
+-----
 
-$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::
+### Getting root
 
-limited command set in stock firmware
+Once the os is booted, you can run a limited number of commands in the shell that are incompletely sanitized. e.g.:
+
+`system exec cat /etc/exports | killall Atsmain` to drop to a shell.
+
+Something causes the OS to reboot within a few seconds once it realizes Atsmain is no longer running.
+
+There's also apparently an undocumented `shell` command that can present you with a login screen if you have credentials. The only account with a password is: 
+
+`root:$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::`
