@@ -1,5 +1,3 @@
-[W0UNC Slack Link](https://join.slack.com/w0unc/shared_invite/MTk2ODQxMzE3NTQzLTE0OTcyMTM3NDAtZjYzMzlkOWIzNQ) (Dies in 7 days)
------------------
 
 # meru_hsmm
 We have a bunch of Meru AP's that were donated to our club. This project exists to serve as a repository of any information we obtain during our quest to shoehorn OpenWrt on the hardware.
