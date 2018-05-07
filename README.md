@@ -59,3 +59,4 @@ Something causes the OS to reboot within a few seconds once it realizes Atsmain 
 There's also apparently an undocumented `shell` command that can present you with a login screen if you have credentials. The only account with a password is:
 
 `root:$1$oxduCrHo$3LQZUCnlYFmBtfsWFEJB11:11851:0:99999:7:::`
+`The password is meru2002`
